@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android LD Preload Injector</string>
+    <string name="select_target_package">Select target package</string>
+    <string name="injector_log">Injector Log:</string>
+    <string name="path_to_library">Path to library:</string>
+    <string name="made_by_github_com_reveny">Made by github.com/reveny</string>
+    <string name="inject">Inject</string>
+    <string name="github">Github</string>
+    <string name="uninject">Uninject</string>
+</resources>
