@@ -132,10 +132,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void injectLibrary() {
-        Shell.cmd("chmod +x " + finalLibPath).exec();
+        Shell.cmd("chmod a+rx " + finalLibPath).exec();
 
         String command = "setprop wrap." + packageName + " LD_PRELOAD=" + finalLibPath;
+        String command2 = "setprop " + packageName + " LD_PRELOAD=" + finalLibPath;
         Shell.cmd(command).exec();
+        Shell.cmd(command2).exec();
         Toast.makeText(thisInstance, "Injected! The game might take longer to load", Toast.LENGTH_LONG).show();
     }
 
