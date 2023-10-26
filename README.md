@@ -1,5 +1,6 @@
 # Android-LD-Preload-Injector
-Use LD-Preload to Inject a shared library on any android version and architecture
+Use LD-Preload to Inject a shared library on any android version and architecture <br />
+Injector is Dead, not working anymore. Please use ptrace instead
 
 # Features
 - [x] Android 5 - 13
